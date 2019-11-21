@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body class="profileBody">
+    <h1><%= user.local.email %></h1>
+    <ul>
+      <% for(let i =0;i<orders.length;i++){ %>
+      <li>
+          <span><%= orders[i].name %></span>
+          <span><%= orders[i].order %></span>
+      </li>
+      <% } %>
+    </ul>
+    <section>
+      <h3>Completed:</h3>
+
+    </section>
+    <script src="profile.js" charset="utf-8"></script>
+  </body>
+</html>

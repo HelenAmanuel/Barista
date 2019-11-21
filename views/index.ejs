@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Barista</title>
+  </head>
+  <body>
+    <h1>The Gardner Roasting Co.</h1>
+    <form action="/login" method="post">
+        <div class="form-group">
+            <label>Email</label>
+            <input placeholder="Email" type="text" class="form-control" name="email">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input placeholder="Password" type="password" class="form-control" name="password">
+        </div>
+
+        <button type="submit" class="btn btn-warning btn-lg">Login</button>
+    </form>
+    <form class="" action="/order" method="POST">
+      <span>Name of Customer</span>
+      <input class="customer" type="text" name="customer" placeholder="Name of Customer">
+      <span>Customer Order</span>
+      <input class="customer" type="text" name="drink" placeholder="Order"><br>
+      <button class="indexBtn" type="submit" name="button">Place Order</button>
+    </form>
+  </body>
+</html>
